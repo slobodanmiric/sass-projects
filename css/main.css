@@ -9,16 +9,11 @@
       .nav ul li a:hover {
         color: royalblue; }
 
-.banner h1 {
+.heading, .banner h1, .footer h3 {
+  color: orange;
   font-size: 40px;
-  color: gray;
+  background-color: gray;
   text-align: center; }
 
-.footer h3 {
-  font-size: 30px;
-  color: gray;
-  text-align: center;
-  transition: color 0.5s, background-color 1s; }
-  .footer h3:hover {
-    color: royalblue;
-    background-color: orange; }
+.banner h1:hover {
+  background-color: green; }
